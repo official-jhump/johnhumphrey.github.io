@@ -1,0 +1,225 @@
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2) { 
+
+#fullpage{
+	overflow-x:hidden; 
+}
+
+body{
+	 overflow-x: auto;
+}
+
+.nav a{
+	font-size: 20px;
+	font-weight: 400;
+}
+  	/*LANDING*/
+
+	.name{
+	   font-size: 160px;
+    font-family: 'Yantramanav', sans-serif;
+    /*color: black;*/
+    letter-spacing: 5px;
+    font-weight: 900;
+    line-height: 1;
+    margin-top: 65px;
+    text-align: center;
+    text-shadow: 0 1px 0 #ccc,
+               0 2px 0 #c9c9c9,
+               0 3px 0 #bbb,
+               0 4px 0 #b9b9b9,
+               0 5px 0 #aaa,
+               0 6px 1px rgba(0,0,0,.1),
+               0 0 5px rgba(0,0,0,.1),
+               0 1px 3px rgba(0,0,0,.3),
+               0 3px 5px rgba(0,0,0,.2),
+               0 5px 10px rgba(0,0,0,.25),
+               0 10px 10px rgba(0,0,0,.2),
+               0 20px 20px rgba(0,0,0,.15);
+
+	}
+	#titles{
+		margin-top: 90px;
+		text-align: center;
+
+	}
+
+
+	/*BIO*/
+
+	#bio{
+	margin-top: 50px;
+	}
+
+	#bioHeader{
+		font-size: 70px;
+	}
+
+	#bioPara{
+		font-size: 20px;
+		font-weight: 400;
+	}
+
+	iframe{
+		margin-top: 50px;
+	}
+
+	#bioIcons img{
+		height: 40px;
+		width: 40px; 
+	}
+
+	#skillsHeader{
+		font-size: 70px;
+	}
+
+	figcaption{
+		font-size: 25px;
+	}
+
+	#portfolioHeader{
+		font-size: 70px;
+	}
+
+	.image-hover-text p{
+  	width: 350px;
+	font-weight: 300;
+	text-align: center;
+	}
+
+	#phoneIcon figcaption, #emailIcon figcaption, #locationIcon figcaption {
+    font-size: 40px;
+	}
+
+	#contactHeader{
+		font-size: 70px;
+	}
+}
+
+@media only screen and (max-width: 745px) {
+	#fullpage{
+		overflow-x: hidden;
+	}
+
+	.name{
+		font-size: 90px;
+	}
+
+	.firstName{
+		margin-top: 160px;
+	}
+
+	.lastName{
+		margin-top: 0px;
+	}
+
+	#titles{
+		margin-top: 0px;
+		font-size: 30px;
+	}
+}
+
+
+@media only screen and (max-width: 610px) {
+	#fullpage{
+		overflow-x: hidden;
+	}
+
+	.name{
+		font-size: 70px;
+	}
+
+	.firstName{
+		margin-top: 220px;
+	}
+
+	.lastName{
+		margin-top: 20px;
+	}
+
+	#titles{
+		margin-top: 0px;
+		font-size: 25px;
+	}
+
+	#logoName{
+		margin-left: 0px;
+	}
+}
+
+
+@media only screen and (max-width: 515px) {
+	#fullpage{
+		overflow-x: hidden;
+	}
+
+	.name{
+		font-size: 50px;
+	}
+
+	.firstName{
+		margin-top: 240px;
+	}
+
+	.lastName{
+		margin-top: 40px;
+	}
+
+	#titles{
+		margin-top: 0px;
+		font-size: 25px;
+	}
+
+	#logoName{
+		margin-left: 0px;
+	}
+}
+
+@media only screen and (max-width: 435px) {
+	#fullpage{
+		overflow-x: hidden;
+	}
+
+	.name{
+		font-size: 75px;
+		letter-spacing: 0px;
+	}
+
+	.firstName{
+		margin-top: 200px;
+		text-align: center;
+	}
+
+	.lastName{
+		margin-top: 60px;
+		text-align: center;
+	}
+
+	#titles{
+		margin-top: 0px;
+		font-size: 20px;
+		text-align: center;
+	}
+
+	#logoName{
+		margin-left: 0px;
+	}
+
+	.nav a{
+		font-size: 10px;
+	}
+
+	#pongImg img, #startupMatchImg img, #spotDotImg img, #liftoffImg img{
+  height:360px;
+  width:360px;
+  margin-top: 25px;
+
+}
+}
+
